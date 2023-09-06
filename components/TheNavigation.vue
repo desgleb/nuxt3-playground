@@ -7,13 +7,15 @@
     <h3>Nuxt App</h3>
     <ul>
       <li>
-        <NuxtLink to="/">Index Page</NuxtLink>
+        <NuxtLink to="/">Home</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/youtube">Youtube Page</NuxtLink>
+        <NuxtLink to="/youtube">Youtube</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/about">About Page</NuxtLink>
+        <NuxtLink to="/about">About</NuxtLink>
+      </li><li>
+        <NuxtLink to="/auth">Auth</NuxtLink>
       </li>
     </ul>
   </nav>
@@ -30,6 +32,7 @@
   padding: 0 2rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: darkblue;
   color: white;
 }
@@ -37,6 +40,8 @@
 .nav ul {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
